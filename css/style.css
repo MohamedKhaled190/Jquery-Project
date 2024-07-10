@@ -1,0 +1,82 @@
+a{
+    text-decoration: none;
+}
+/* Start Home */
+#Home{
+    height: 100vh;
+    background-image:linear-gradient(rgba(214, 38, 38, 0.5),rgba(214, 38, 38, 0.5)) , url(https://jquery-baher.netlify.app/images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.HomeContent > :first-child{
+    font-size: 70px;
+}
+.SideNav{
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    bottom: 0px;
+    left: -250px;
+    background-color: rgba(0, 0, 0, 0.676);
+    width: 250px;
+    transition: all 0.4s;
+}
+.SideNav a{
+    color: white;
+}
+.SideNav a:hover{
+    color: brown;
+}
+.fa-xmark{
+    align-self: self-end;
+}
+.SideNav span{
+    position: absolute;
+    top: 50%;
+    right: -100px;
+}
+/* End Home */
+/* Start Duration */
+.DurationContent h2{
+    background-color: rgba(214, 46, 52, 0.5);
+}
+.DurationContent p{
+    background-color: beige;
+    display: none;
+}
+/* End Duration */
+/* Start Details */
+#Details{
+    background-image:linear-gradient(rgba(214, 38, 38, 0.5),rgba(214, 38, 38, 0.5)) , url(https://jquery-baher.netlify.app/images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0px;
+}
+#Details .item{
+    height: 200px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+/* End Details */
+/* Start Contact */
+.contact-icon {
+    display: flex;
+    gap: 10px;
+}
+.contact-icon i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.contact-icon i:hover{
+    background-color: rgb(238, 85, 85);
+    color: #fff;
+}
+#Contact .message{
+padding-bottom: 150px;
+}
+/* End Contact */
